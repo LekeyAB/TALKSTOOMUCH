@@ -1,0 +1,367 @@
+/* General */
+body {
+  background-color: #f5e046;
+  color: black;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-weight: bolder;
+  background-image: url(text/fullpage.png);
+  background-size: 100%;
+
+  background-image: linear-gradient(90deg,
+    transparent 79px,
+    #cc5552 79px,
+    #cc5552 81px,
+    transparent 81px),
+    linear-gradient(#2087ba .1em,
+      transparent .1em);
+  background-size: 100% 2em;
+}
+  
+h1 {
+  color: black;
+  font-size: 5.625rem;
+  font-family: 'Balboa Extra Black', sans-serif;
+}
+
+h2 {
+  color: black;
+  font-family: 'Balboa Extra Bold', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  
+}
+
+h3 {
+  color: black;
+  font-family: 'Balboa light', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+
+a{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+a:hover {
+  color: darkslategrey;
+}
+
+/* Section layouts */
+.section{
+  width: 100vw;
+  height: 100vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-size: 100%;
+  background-position-x: 0%;
+  background-position-y: 0%;
+
+}
+.section-heading{
+  width: 50vw;
+  transform: translateY(0%) translateX(0%);
+  
+}
+.sub-heading{
+  width: 50vw;
+  transform: translateY(0%) translateX(0%);
+}
+
+.section-text{
+  font-size: 1.1em;
+  text-shadow: 1px 1px 10px black;
+  font-weight: bolder;
+}
+.section-header{
+  
+}
+
+/* Navagation */
+nav{
+  background-color: #f5e046;
+}
+.navbar{
+  background-image: linear-gradient(90deg,
+    transparent 79px,
+    #cc5552 79px,
+    #cc5552 81px,
+    transparent 81px);
+  background-size: 100% 2em;
+  height: 3.5vw;
+}
+.navbar-brand-img{
+  transform: translateY(10%) translateX(20%);
+  width: 3vw;
+}
+#navbarNavDropdown{
+padding-left: 69.5vw;
+}
+.navbar-nav{
+text-align: right;
+}
+.nav-link{
+
+}
+.nav-link:hover{
+color: darkslategrey;
+}
+.nav-btn{
+  height: 2vh;
+}
+
+/* title */
+#title{
+  padding: 15vh 0 0 0;
+  height: 95vh;
+}
+.title-logo{
+  width: 35vw;
+  transform: translateY(6%) translateX(15%);
+}
+.title-text{
+  width: 28vw;
+  transform: rotate(90deg) translateY(10%) translateX(-8%);
+}
+
+
+/* Unique */
+#unique{
+  height: 95vh;
+}
+#unique-header{
+  padding-left: 25%;
+  padding-bottom: 3%;
+}
+#unique-heading{
+  width: 35vw;
+}
+#unique-sub-heading{
+  width: 25vw;
+  transform: translateY(-10%) translateX(-7%);
+}
+#unique-content{
+
+}
+#policy{
+
+}
+.unique-photo{
+  width: 20vw;
+}
+#majority-black-benefits{
+  transform: rotate(-7deg) translateY(0%) translateX(45%);
+  width: 22vw;
+}
+#mulityear-commitment{
+  transform: rotate(5deg) translateY(3%) translateX(-45%);
+  width: 27vw;
+}
+
+/* Mission */
+#mission{
+  padding-top: 20vh;
+}
+#thefirst{
+  width: 23vw;
+  transform: translateY(-23%) translateX(50%);
+}
+#partnership{
+  transform: translateY(10%) translateX(23%);
+}
+#agency{
+  width: 15vw;
+}
+#to{
+  width: 5vw;
+  transform: translateY(-40%) translateX(0%);
+}
+#create{
+  width: 15vw;
+  transform: translateY(-50%) translateX(-90%);
+}
+#Iphone-containter{
+
+}
+#Iphone-photo{
+  transform: rotate(-87deg) translateY(-10%) translateX(30%);
+  position: absolute;
+  z-index: -1;
+  width: 30vw;
+}
+#infrastructre-video{
+  transform: rotate(3deg) translateY(23%) translateX(-18.5%);
+  height: 27vh;
+  width: 32.5vw;
+  border-radius: 5%;
+}
+#sustainable{
+  width: 25vw;
+  transform: translateY(0%) translateX(10%);
+}
+#black{
+  width: 15vw;
+  transform: translateY(-20%) translateX(-40%);
+}
+#infrastructure{
+  width: 30vw;
+  transform: translateY(-5%) translateX(-45%);
+}
+
+/* Impact */
+#impact{
+  height: 100vh;
+  padding-top: 8vh;
+  padding-bottom: 20vh;
+}
+#impact-header{
+}
+#impact-heading{
+  width: 40vw;
+  transform: translateY(0%) translateX(0%);
+}
+#impact-container{
+  padding-top: 3vh;
+}
+.impact-photo{
+  transform: rotate(-4deg) translateY(0%) translateX(10%);
+  width: 30vw;
+}
+.impact-steps{
+  height: 22vh;
+}
+#cultivate-step{
+  
+}
+#cultivate-heading{
+  width: 30vh;
+  transform: translateY(-10%) translateX(0%);
+}
+#cultivate-text{
+  width: 40vh;
+  transform: translateY(-18%) translateX(0%);
+}
+#employ-step{
+  
+}
+#employ-heading{
+  width: 30vh;
+  transform: translateY(0%) translateX(-20%);
+}
+#employ-text{
+  transform: translateY(-16%) translateX(-20%);
+  width: 35vh;
+}
+#build-step{
+  
+}
+#build-heading{
+  width: 25vh;
+  transform: translateY(50%) translateX(0%);
+}
+#build-text{
+  width: 42vh;
+  transform: translateY(37%) translateX(0%);
+}
+#invest-step{
+  
+}
+#invest-heading{
+  transform: translateY(60%) translateX(-20%);
+  width: 30vh;
+}
+#invest-text{
+  transform: translateY(35%) translateX(-20%);
+  width: 35vh;
+}
+
+
+/* Contact */
+#contact{
+  padding-bottom: 0;
+}
+#contact-header{
+  padding-left: 40%;
+}
+.contact-heading{
+  width: 20vw;
+  transform: translateY(34%) translateX(0%);
+}
+.contact-sub-heading{
+  width: 15vw;
+  transform: translateY(95%) translateX(12%);
+}
+.polaroid-container{
+  padding-top: 5vh;
+}
+.bio-photo-terrence{
+  transform: rotate(4deg);
+  width: 25vh;
+}
+.bio-photo-leykey{
+  transform: rotate(-7deg);
+  width: 25vh;
+}
+.bio-photo-kekebeats{
+  transform: rotate(5deg);
+  width: 25vh;
+}
+.bio-photo-armani{
+  transform: rotate(-2deg) translateY(0%) translateX(50%);
+  width: 25vh;
+}
+.bio-photo-keandre{
+  transform: rotate(-3deg);
+  padding-top: 1vh;
+  width: 25vh;
+}
+.bio-photo-kardeisha{
+  transform: rotate(+4deg);
+  padding-top: 1vh;
+  width: 25vh;
+}
+.bio-photo-andrew{
+  transform: rotate(-1deg);
+  width: 25vh;
+}
+.bio-photo-aselis{
+  transform: rotate(-5deg) translateY(0%) translateX(-50%);
+  padding-top: 1vh;
+  width: 25vh;
+}
+
+
+/* Footer */
+    .footer{
+      background-image: linear-gradient(90deg,
+        transparent 79px,
+        #cc5552 79px,
+        #cc5552 81px,
+        transparent 81px);
+      background-size: 100% 2em;
+      height: 2vh;
+      padding: 0;
+      margin: 0;
+    }
+    .footer-brand-img{
+      width: 4.5vw;
+      transform: translateY(-10%) translateX(-3%);
+    }
+    .footer-link{
+      color: black;
+    }
+    .footer-link:hover {
+      color: #121212;
+    }
+    .footer-logo{
+      height: 2.1vw;
+    }
+    .social-container{
+      text-align: right;
+    }
