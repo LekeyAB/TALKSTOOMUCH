@@ -119,15 +119,17 @@ color: darkslategrey;
 /* title */
 #title{
   padding: 15vh 0 0 0;
-  height: 95vh;
+  
 }
-.title-logo{
-  width: 35vw;
-  transform: translateY(6%) translateX(15%);
+
+.skills{
+  
 }
 .title-text{
-  width: 28vw;
-  transform: rotate(90deg) translateY(10%) translateX(-8%);
+  width: 10vw;
+  transform: rotate(deg);
+  background-image: url("imgs/STICKYNOTE-ORANGE.png");
+  background-size: 130%;
 }
 
 
@@ -335,6 +337,12 @@ color: darkslategrey;
   padding-top: 1vh;
   width: 25vh;
 }
+.indexcard{
+  width: 40vw;
+  height: 20vw;
+  background-image: url("imgs/Indexcard.png");
+  background-size: 100%;
+}
 
 
 /* Footer */
@@ -350,8 +358,8 @@ color: darkslategrey;
       margin: 0;
     }
     .footer-brand-img{
-      width: 4.5vw;
-      transform: translateY(-10%) translateX(-3%);
+      width: 30vw;
+      transform: translateY(0%) translateX(0%);
     }
     .footer-link{
       color: black;
@@ -360,7 +368,7 @@ color: darkslategrey;
       color: #121212;
     }
     .footer-logo{
-      height: 2.1vw;
+      width: 50vw;
     }
     .social-container{
       text-align: right;
