@@ -97,8 +97,8 @@ nav{
   height: 3.5vw;
 }
 .navbar-brand-img{
-  transform: translateY(10%) translateX(20%);
-  width: 3vw;
+  transform: translateY(0%) translateX(-10%);
+  width: 4vw;
 }
 #navbarNavDropdown{
 padding-left: 69.5vw;
@@ -118,35 +118,56 @@ color: darkslategrey;
 
 /* title */
 #title{
-  padding: 15vh 0 0 0;
+  padding: 25vh 0 0 2vw;
   
 }
 
 .skills{
-  
+  background: url(imgs/STICKYNOTE-ORANGE.png) no-repeat center; 
+  background-size: cover;
+  width: 32vw;
+  position: relative;
+  transform: rotate(4deg);
+}
+.interest{
+  background: url(imgs/STICKNOTE-GREEN.png) no-repeat center; 
+  background-size: cover;
+  width: 32vw;
+  position: relative;
+  transform: rotate(-3deg);
+}
+.how{
+  background: url(imgs/STICKYNOTE-YELLOW.png) no-repeat center; 
+  background-size: cover;
+  width: 32vw;
+  position: relative;
+  transform: rotate(2deg);
 }
 .title-text{
-  width: 10vw;
+  width: 20vw;
   transform: rotate(deg);
-  background-image: url("imgs/STICKYNOTE-ORANGE.png");
-  background-size: 130%;
+ 
+}
+.label{
+  width: 60vw;
+  transform: translateY(40%) translateX(30%);
 }
 
 
 /* Unique */
 #unique{
-  height: 95vh;
+  padding-top: 10vh;
+  padding-bottom: 20vh;
 }
-#unique-header{
-  padding-left: 25%;
-  padding-bottom: 3%;
+.about-header{
 }
 #unique-heading{
-  width: 35vw;
+  width: 55vw;
+  transform: translateY(0%) translateX(0%);
 }
 #unique-sub-heading{
   width: 25vw;
-  transform: translateY(-10%) translateX(-7%);
+  
 }
 #unique-content{
 
@@ -166,121 +187,117 @@ color: darkslategrey;
   width: 27vw;
 }
 
-/* Mission */
-#mission{
-  padding-top: 20vh;
+/* Join */
+#join{
+  padding-top: 10vh;
 }
-#thefirst{
-  width: 23vw;
-  transform: translateY(-23%) translateX(50%);
+#join-heading{
+  transform: translateY(0%) translateX(45%);
 }
-#partnership{
-  transform: translateY(10%) translateX(23%);
+.milenial{
+  margin-top: 5vh;
+  background: url(imgs/STICKYNOTE-YELLOW.png) no-repeat center; 
+  background-size: cover;
+  width: 24vw;
+  position: relative;
+  transform: rotate(2deg) translateY(3%) translateX(75%);
 }
-#agency{
-  width: 15vw;
+.milenial-text{
+  width: 17vw;
+  transform: rotate(deg) ;
 }
-#to{
-  width: 5vw;
-  transform: translateY(-40%) translateX(0%);
+.genx{
+  margin-top: 8vh;
+  background: url(imgs/STICKYNOTE-YELLOW.png) no-repeat center; 
+  background-size: cover;
+  width: 26vw;
+  position: relative;
+  transform: rotate(-4deg) translateY(6%) translateX(125%);
 }
-#create{
-  width: 15vw;
-  transform: translateY(-50%) translateX(-90%);
+.genx-text{
+  width: 17vw;
+  transform: rotate(deg) ;
 }
-#Iphone-containter{
-
+.jobs{
+  width: 27vw;
+  transform: rotate(0deg) translateY(6%) translateX(35%);
 }
-#Iphone-photo{
-  transform: rotate(-87deg) translateY(-10%) translateX(30%);
-  position: absolute;
-  z-index: -1;
-  width: 30vw;
-}
-#infrastructre-video{
-  transform: rotate(3deg) translateY(23%) translateX(-18.5%);
-  height: 27vh;
-  width: 32.5vw;
-  border-radius: 5%;
-}
-#sustainable{
+.carrer{
   width: 25vw;
-  transform: translateY(0%) translateX(10%);
-}
-#black{
-  width: 15vw;
-  transform: translateY(-20%) translateX(-40%);
-}
-#infrastructure{
-  width: 30vw;
-  transform: translateY(-5%) translateX(-45%);
+  transform: rotate(0deg) translateY(-6%) translateX(30%);
 }
 
-/* Impact */
-#impact{
-  height: 100vh;
+/* Launch */
+#launch{
   padding-top: 8vh;
   padding-bottom: 20vh;
+  padding-left: 10vw;
 }
-#impact-header{
+.twenty-three{
+  width: 15vw;
+  padding-bottom: 4vh;
 }
-#impact-heading{
-  width: 40vw;
-  transform: translateY(0%) translateX(0%);
+.plan{
+  padding: 3%;
+  background: url(imgs/STICKNOTE-GREEN.png) no-repeat center; 
+  background-size: cover;
+  width: 24vw;
+  position: relative;
+  transform: rotate(4deg) translateY(-6%) translateX(30%);
 }
-#impact-container{
-  padding-top: 3vh;
+.plan-text{
+  height: 10vw;
+  padding: 3%;
 }
-.impact-photo{
-  transform: rotate(-4deg) translateY(0%) translateX(10%);
-  width: 30vw;
+.twenty-four{
+  width: 26vw;
+  padding-bottom: 4vh;
 }
-.impact-steps{
-  height: 22vh;
+.speaker{
+  padding: 3%;
+  background: url(imgs/STICKNOTE-GREEN.png) no-repeat center; 
+  background-size: cover;
+  width: 24vw;
+  position: relative;
+  transform: rotate(-2deg) translateY(-6%) translateX(30%);
 }
-#cultivate-step{
-  
+.speaker-text{
+  height: 10vw;
+  padding: 3%;
 }
-#cultivate-heading{
-  width: 30vh;
-  transform: translateY(-10%) translateX(0%);
+.twenty-six{
+  width: 15vw;
+  padding-bottom: 5vh;
+  transform: rotate(-2deg) translateY(10%) translateX(0%);
 }
-#cultivate-text{
-  width: 40vh;
-  transform: translateY(-18%) translateX(0%);
+.blueprint{
+  padding: 3%;
+  background: url(imgs/STICKNOTE-GREEN.png) no-repeat center; 
+  background-size: cover;
+  width: 24vw;
+  position: relative;
+  transform: rotate(-3deg) translateY(-6%) translateX(30%);
 }
-#employ-step{
-  
+.blueprint-text{
+  height: 10vw;
+  padding: 3%;
 }
-#employ-heading{
-  width: 30vh;
-  transform: translateY(0%) translateX(-20%);
+.twenty-seven{
+  width: 15vw;
+  padding-bottom: 5vh;
+  transform: translateY(17%) translateX(0%);
 }
-#employ-text{
-  transform: translateY(-16%) translateX(-20%);
-  width: 35vh;
+.sale{
+  padding: 3%;
+  background: url(imgs/STICKNOTE-GREEN.png) no-repeat center; 
+  background-size: cover;
+  width: 24vw;
+  position: relative;
+  transform: rotate(1deg) translateY(-6%) translateX(30%);
 }
-#build-step{
-  
-}
-#build-heading{
-  width: 25vh;
-  transform: translateY(50%) translateX(0%);
-}
-#build-text{
-  width: 42vh;
-  transform: translateY(37%) translateX(0%);
-}
-#invest-step{
-  
-}
-#invest-heading{
-  transform: translateY(60%) translateX(-20%);
-  width: 30vh;
-}
-#invest-text{
-  transform: translateY(35%) translateX(-20%);
-  width: 35vh;
+.sale-text{
+  height: 10vw;
+  padding: 3%;
 }
 
 
@@ -306,42 +323,52 @@ color: darkslategrey;
   transform: rotate(4deg);
   width: 25vh;
 }
-.bio-photo-leykey{
-  transform: rotate(-7deg);
-  width: 25vh;
+.first{
+  padding-bottom: 5vh;
 }
-.bio-photo-kekebeats{
-  transform: rotate(5deg);
-  width: 25vh;
+.TerenceTaylor{
+  height: 50vh;
+  transform: rotate(2deg) translateY(10%) translateX(-10%);
 }
-.bio-photo-armani{
-  transform: rotate(-2deg) translateY(0%) translateX(50%);
-  width: 25vh;
+.www{
+  padding: 3%;
+  background: url(imgs/STICKYNOTE-ORANGE.png) no-repeat center; 
+  background-size: cover;
+  width: 24vw;
+  height: 30vh;
+  position: relative;
+  transform: rotate(-4deg) translateY(40%) translateX(-50%);
 }
-.bio-photo-keandre{
-  transform: rotate(-3deg);
-  padding-top: 1vh;
-  width: 25vh;
-}
-.bio-photo-kardeisha{
-  transform: rotate(+4deg);
-  padding-top: 1vh;
-  width: 25vh;
-}
-.bio-photo-andrew{
-  transform: rotate(-1deg);
-  width: 25vh;
-}
-.bio-photo-aselis{
-  transform: rotate(-5deg) translateY(0%) translateX(-50%);
-  padding-top: 1vh;
-  width: 25vh;
+.www-text{
+  width: 17vw;
+  transform: rotate(-10deg) translateY(350%) translateX(-5%);
 }
 .indexcard{
   width: 40vw;
   height: 20vw;
   background-image: url("imgs/Indexcard.png");
   background-size: 100%;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(4deg) translateY(-135%) translateX(132%);
+}
+.name{
+  transform: translateY(250%) translateX(0%);
+}
+.name-box{
+
+}
+.email{
+  transform: translateY(269%) translateX(0%);
+}
+.email-box{
+
+}
+.message{
+  transform: translateY(130%) translateX(0%);
+}
+#message-box{
+  height: 8vh;
 }
 
 
@@ -358,8 +385,9 @@ color: darkslategrey;
       margin: 0;
     }
     .footer-brand-img{
-      width: 30vw;
-      transform: translateY(0%) translateX(0%);
+      height: 4vw;
+      width: 20vw;
+      transform: translateY(0%) translateX(-5%);
     }
     .footer-link{
       color: black;
@@ -368,7 +396,7 @@ color: darkslategrey;
       color: #121212;
     }
     .footer-logo{
-      width: 50vw;
+      
     }
     .social-container{
       text-align: right;
